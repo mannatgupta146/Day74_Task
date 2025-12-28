@@ -1,63 +1,57 @@
 # Day 74 Task | Cohort 2.0
 
-This repository contains the work completed as part of **Day 73** in **Sheryians Coding School Cohort 2.0**.  
-The focus of this task was to build a **cartoon streaming-style UI using React**, emphasizing a hero banner, horizontal sliders, and smooth user experience using Swiper.js and Tailwind CSS.
+This repository contains the work completed as part of **Day 74** in **Sheryians Coding School Cohort 2.0**.  
+The focus of this task was to build a **Contact Management application using React**, with emphasis on form handling, state management, and structured component-based design.
 
 
-## 🖼️ UI Preview
+## 🖼️ Project Overview
 
-### 🔹 Cartoon Streaming UI
-Below is the final UI showcasing **popular cartoons like Pokémon, Shinchan, Doraemon, Ben 10**, etc., with a hero section and interactive sliders.
+The application provides a simple interface where users can:
+- Enter contact details using a form
+- View submitted contacts displayed as cards in real time
 
-<img src="./src/assets/preview.png" alt="Cartoon Streaming UI Preview">
+The layout follows a **side-by-side structure**, improving clarity and usability.
+![Contact Management App Preview](./src/assets/preview.png)
 
 
 ## 🧩 Features Implemented
 
 | Feature | Description |
 |------|-------------|
-| 🎬 Hero Section | Large banner with background image, overlay, and call-to-action buttons |
-| ▶️ Continue Watching Slider | Horizontal Swiper slider showing watch progress |
-| ❤️ You Might Like Slider | Recommendation slider with save/bookmark option |
-| 🖼️ Image Handling | Proper image placement using `<img />` and `object-cover` |
-| 🧭 Swiper Integration | Smooth horizontal scrolling with mouse/trackpad support |
-| 🎨 Consistent UI | Dark theme with balanced spacing and typography |
-| 🔁 Dynamic Rendering | Cards rendered dynamically using `.map()` |
-| ✨ Hover & Interaction | Clean hover effects and interactive icons |
-
+| 📝 Contact Form | Collects user details such as name, email, phone number, and location |
+| 📇 Contact Cards | Displays submitted contacts in a clean, card-based format |
+| 🔄 State Management | React `useState` used to manage form inputs and contact data |
+| ➕ Add Contacts | New contacts added dynamically on form submission |
+| 🧹 Auto Reset | Form fields reset automatically after submission |
+| 📐 Structured Layout | Form and contact list placed side by side for better readability |
+| 🔁 Dynamic Rendering | Contact cards rendered dynamically using `.map()` |
 
 ## ✨ Key Learning Highlights
 
-You learned to:
-- Structure a streaming-style layout in React  
-- Use Swiper.js for horizontal scrolling sections  
-- Manage image layouts without breaking UI structure  
-- Build reusable and scalable UI components  
-- Improve visual hierarchy using spacing and overlays  
-- Combine Tailwind CSS with external libraries smoothly  
-
+Through this task, I learned to:
+- Handle form submissions correctly in React
+- Manage multiple controlled inputs using state
+- Store and update structured data efficiently
+- Render lists dynamically using reusable components
+- Maintain clean separation between logic and presentation
 
 ## 🛠️ Technologies Used
 
 - JavaScript (ES6+)  
 - React.js  
-- Tailwind CSS  
-- Swiper.js  
 - HTML5  
-
+- CSS3  
 
 ## 📖 Learning Outcome
 
-By completing Day 73, I understood:
-- How modern OTT/streaming UIs are structured  
-- Effective usage of Swiper for content sliders  
-- Managing layouts with background images and overlays  
-- Writing clean, readable, and maintainable React components  
-- Building portfolio-ready frontend projects  
+By completing Day 74, I gained a clearer understanding of:
+- React form handling and state updates  
+- Component reusability and data flow  
+- Building clean and maintainable frontend applications  
+- Structuring small projects in a professional way  
 
 ## 🌟 Acknowledgement
 
-This task was completed under the guidance of **Sarthack Bhaiya**  
-as part of **Sheryians Coding School – Cohort 2.0**.
+This task was completed as part of **Sheryians Coding School – Cohort 2.0**.
 
 ---
